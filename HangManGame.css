@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-portion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.game-portion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.words-area {
+    display: flex;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.words-area p {
+    margin-right: 10px;
+    border-bottom: 2px solid black;
+    width: 15px;
+    font-size: 18px;
+}
+#rem-guess {
+    margin-top: 15px;
+}
+
+#guesess {
+    margin-top: 5px;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.keyboard button {
+    width: 50px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#reset-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 30px;
+}
+
+#hint {
+    margin-top: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    .image-portion, .game-portion {
+        margin-top: 20px;
+    }
+    .keyboard {
+        width: 100%;
+        justify-content: center;
+    }
+    .keyboard button {
+        width: 40px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .words-area p {
+        font-size: 16px;
+    }
+    #reset-btn {
+        width: 80px;
+        height: 25px;
+    }
+    #message {
+        font-size: 16px;
+    }
+}
